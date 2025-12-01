@@ -17,7 +17,7 @@ const divide = (a, b) => {
     return a / b;
 };
 
-//유료 번전 나눗셈
+//유료 버전 나눗셈
 const devide_for_premium = (a, b) => a / b
 
 //무료 버전 나눗셈
