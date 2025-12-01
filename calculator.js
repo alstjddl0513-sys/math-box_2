@@ -13,15 +13,9 @@ const multiply = (a, b) => a * b;
 //나눗셈
 //type (x: number, y:number) ->number;
 const divide = (a, b) => {
-  if (b === 0) return;
-  return a / b;
+    if (b === 0) return;
+    return a / b;
 };
 
-//유료 버전 나눗셈
-const devide_for_premium = (a, b) => a / b;
-
 //무료 버전 나눗셈
-const devide_for_free = (a, b) => a / b;
-
-//type (x:number) =>number
-const square = (a) => a * b;
+const devide_for_free =(a, b) => a/ b
