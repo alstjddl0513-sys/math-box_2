@@ -16,3 +16,6 @@ const divide = (a, b) => {
     if (b === 0) return;
     return a / b;
 };
+
+//유료 번전 나눗셈
+const devide_for_premium = (a, b) => a / b
